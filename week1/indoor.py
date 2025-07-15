@@ -1,3 +1,3 @@
-string = input("Enter your prompt:  ")
-answ = string.replace(" ", "...")
-print(answ)
+string = input("Enter your prompt:  ").lower()
+
+print(string)
